@@ -1,0 +1,117 @@
+/*Основные стили*/
+body {
+	color: #8f8f8f;
+	font: 12px Tahoma, sans-serif;
+	background: #fffafa url('/images/bg.png');
+	margin: 0;
+}
+input[type="text"] {
+	background-color: #f3f3f3;
+	border: 1px solid #e7e7e7;
+	height: 30px;
+	color: #b2b2b2;
+	padding: 0 10px;
+	vertical-align: top;
+}
+nav {
+	background: #f8f8ff;
+	border: 1px solid #e7e7e7;
+}
+p {
+	margin: 20px 0;
+}
+
+/*стили блоков*/
+#wrapper {
+	max-width: 1100px;
+	margin: auto;
+}
+header {
+	padding: 20px 0;
+}
+
+/*стили для меню*/
+nav a {
+	text-decoration: none;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	list-style-position: inside;
+	font: 14px 'Oswald', sans-serif;
+	padding: 10px;
+}
+
+.top-menu li {
+	display: inline-block;
+	padding: 10px 30px;
+	margin: 0;
+}
+
+.top-menu li.active {
+	background: #29c5e6;
+	color: #fff;
+}
+
+.top-menu a {
+	color: black;
+}
+
+/*колонки страницы*/
+aside {
+	float: left;
+	width: 180px;
+}
+main {
+	margin-left: 280px;
+	padding-bottom: 50px;
+}
+
+/*стили для подменю*/
+.aside-menu li {
+    font-weight: 300;
+    list-style-type: square;
+    border-top: 1px solid #e7e7e7;
+}
+
+.aside-menu li:first-child {
+    border: none;
+}
+
+.aside-menu li.active {
+    color: #29c5e6;
+}
+
+.aside-menu a {
+    color: #8f8f8f;
+}
+
+.aside-menu button {
+    color: black;
+    background-color: #f8f8ff;
+    border: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+.table_main {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.table_main thead,tfoot {
+       background-color: #5c5c5c;
+       color: white;
+}
+.table_main tbody {
+       background-color: #f5f5f5;
+       color: black;
+}
+.table_main th {
+border: 1px solid white;
+}
+

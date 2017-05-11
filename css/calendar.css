@@ -1,0 +1,140 @@
+select {
+    width: 100px; /* Ширина списка в пикселах */
+    font-size: 12pt;
+    text-align: center;
+    background-color: WhiteSmoke;
+}
+
+.lab_check {
+    width: 81px; /* Ширина рисунка */
+    height: 65px; /* Высота рисунка */
+    display: block; /* Блочный элемент */
+    position: relative; /* Относительное позиционирование */
+}
+input[type="radio"] + span1 {
+    position: absolute; /* Абсолютное позиционирование */
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    background: url(/images/calendar/1m.png) no-repeat; /* Фоновый рисунок */
+    cursor: pointer; /* Курсор в виде руки */
+}
+input[type="radio"] + span2 {
+    position: absolute; /* Абсолютное позиционирование */
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    background: url(/images/calendar/2m.png) no-repeat; /* Фоновый рисунок */
+    cursor: pointer; /* Курсор в виде руки */
+}
+input[type="radio"] + span3 {
+    position: absolute; /* Абсолютное позиционирование */
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    background: url(/images/calendar/3m.png) no-repeat; /* Фоновый рисунок */
+    cursor: pointer; /* Курсор в виде руки */
+}
+input[type="radio"] + span4 {
+    position: absolute; /* Абсолютное позиционирование */
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    background: url(/images/calendar/4m.png) no-repeat; /* Фоновый рисунок */
+    cursor: pointer; /* Курсор в виде руки */
+}
+input[type="radio"] + span5 {
+    position: absolute; /* Абсолютное позиционирование */
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    background: url(/images/calendar/5m.png) no-repeat; /* Фоновый рисунок */
+    cursor: pointer; /* Курсор в виде руки */
+}
+input[type="radio"] + span6 {
+    position: absolute; /* Абсолютное позиционирование */
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    background: url(/images/calendar/6m.png) no-repeat; /* Фоновый рисунок */
+    cursor: pointer; /* Курсор в виде руки */
+}
+input[type="radio"] + span7 {
+    position: absolute; /* Абсолютное позиционирование */
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    background: url(/images/calendar/7m.png) no-repeat; /* Фоновый рисунок */
+    cursor: pointer; /* Курсор в виде руки */
+}
+input[type="radio"] + span8 {
+    position: absolute; /* Абсолютное позиционирование */
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    background: url(/images/calendar/8m.png) no-repeat; /* Фоновый рисунок */
+    cursor: pointer; /* Курсор в виде руки */
+}
+input[type="radio"] + span9 {
+    position: absolute; /* Абсолютное позиционирование */
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    background: url(/images/calendar/9m.png) no-repeat; /* Фоновый рисунок */
+    cursor: pointer; /* Курсор в виде руки */
+}
+input[type="radio"] + span10 {
+    position: absolute; /* Абсолютное позиционирование */
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    background: url(/images/calendar/10m.png) no-repeat; /* Фоновый рисунок */
+    cursor: pointer; /* Курсор в виде руки */
+}
+input[type="radio"] + span11 {
+    position: absolute; /* Абсолютное позиционирование */
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    background: url(/images/calendar/11m.png) no-repeat; /* Фоновый рисунок */
+    cursor: pointer; /* Курсор в виде руки */
+}
+input[type="radio"] + span12 {
+    position: absolute; /* Абсолютное позиционирование */
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    background: url(/images/calendar/12m.png) no-repeat; /* Фоновый рисунок */
+    cursor: pointer; /* Курсор в виде руки */
+}
+input[type="radio"]:checked + span1{
+    background-position: 0 -65px;
+}
+input[type="radio"]:checked + span2{
+    background-position: 0 -65px;
+}
+input[type="radio"]:checked + span3{
+    background-position: 0 -65px;
+}
+input[type="radio"]:checked + span4{
+    background-position: 0 -65px;
+}
+input[type="radio"]:checked + span5{
+    background-position: 0 -65px;
+}
+input[type="radio"]:checked + span6{
+    background-position: 0 -65px;
+}
+input[type="radio"]:checked + span7{
+    background-position: 0 -65px;
+}
+input[type="radio"]:checked + span8{
+    background-position: 0 -65px;
+}
+input[type="radio"]:checked + span9{
+    background-position: 0 -65px;
+}
+input[type="radio"]:checked + span10{
+    background-position: 0 -65px;
+}
+input[type="radio"]:checked + span11{
+    background-position: 0 -65px;
+}
+input[type="radio"]:checked + span12{
+    background-position: 0 -65px;
+}
+
+
+
+
+
+
+
